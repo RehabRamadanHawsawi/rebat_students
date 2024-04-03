@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'login.dart';
 
+
 // ignore: camel_case_types
 class welcome_rebat extends StatelessWidget {
   const welcome_rebat({Key? key}) : super(key: key);

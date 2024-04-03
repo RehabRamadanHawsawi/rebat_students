@@ -22,11 +22,12 @@ class login extends StatelessWidget {
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:rebat/driverSignup/signup_one.dart';
-import 'package:rebat/signup/studentSignup.dart';
+import 'SignUpOne.dart';
+import 'StudentSignup.dart';
 
-class LoginPage extends StatelessWidget {
-  const LoginPage({super.key});
+// ignore: camel_case_types
+class login extends StatelessWidget {
+  const login({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -35,10 +36,10 @@ class LoginPage extends StatelessWidget {
         body: Column(
           children: [
             Center(
-              child: Container(
+              child: SizedBox(
                 width: 179,
                 height: 156,
-                child: Image.asset('images/rebat_logo_cropped.png'),
+                child: Image.asset('images/rebat_logo.png'),
               ),
             ),
             Container(
