@@ -1,22 +1,4 @@
-/*
-import 'package:flutter/material.dart';
 
-// ignore: camel_case_types
-class login extends StatelessWidget {
-  const login({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        
-      ),
-    );
-  }
-}
-
-*/
 
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
@@ -32,13 +14,13 @@ class login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        /*appBar: AppBar(),*/
         body: Column(
           children: [
             Center(
               child: SizedBox(
                 width: 179,
-                height: 156,
+                height: 256,
                 child: Image.asset('images/rebat_logo.png'),
               ),
             ),
@@ -102,9 +84,9 @@ class login extends StatelessWidget {
               },
               style: ButtonStyle(
                   backgroundColor:
-                      MaterialStatePropertyAll(Color.fromRGBO(25, 69, 107, 1)),
-                  foregroundColor: MaterialStatePropertyAll(Colors.green),
-                  shape: MaterialStatePropertyAll(RoundedRectangleBorder(
+                      WidgetStatePropertyAll(Color.fromRGBO(25, 69, 107, 1)),
+                  foregroundColor: WidgetStatePropertyAll(Colors.green),
+                  shape: WidgetStatePropertyAll(RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(25)))),
               child: Text(
                 " تسجيل الدخول",
