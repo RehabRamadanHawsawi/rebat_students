@@ -4,7 +4,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'SignUpOne.dart';
 import 'StudentSignup.dart';
 
 // ignore: camel_case_types
@@ -77,11 +76,11 @@ class login extends StatelessWidget {
             SizedBox(
               height: 39,
             ),
-            ElevatedButton(
+           /*ElevatedButton(
               onPressed: () {
                 Navigator.push(context,
                     MaterialPageRoute(builder: (context) => SignUpOne()));
-              },
+              }
               style: ButtonStyle(
                   backgroundColor:
                       WidgetStatePropertyAll(Color.fromRGBO(25, 69, 107, 1)),
@@ -100,7 +99,7 @@ class login extends StatelessWidget {
                   wordSpacing: 1,
                 ),
               ),
-            ),
+            ),*/
             SizedBox(
               height: 10,
             ),
